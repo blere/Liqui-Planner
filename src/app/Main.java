@@ -5,7 +5,6 @@ import view.MainView;
 
 /**
  * Startet die Liquid-Planner Anwendung.
- * 
  * Diese Klasse erstellt ein Exemplar der MainView und instanziiert
  * anschliessend den MainController, welcher die Interaktionen zwischen der View
  * und der Datenbank (über DatabaseHelper) steuert. Zum Schluss wird die GUI
