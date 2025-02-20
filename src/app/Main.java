@@ -13,7 +13,7 @@ import view.MainView;
  */
 public class Main {
 	public static void main(String[] args) {
-		// Erstelle die Benutzeroberflaeche (View)
+		// Erstelle die Benutzeroberfläche (View)
 		MainView view = new MainView();
 		// Erstelle den Controller, der die Interaktion zwischen View und Model
 		// (Datenbank) übernimmt
