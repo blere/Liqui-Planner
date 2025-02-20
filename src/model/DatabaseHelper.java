@@ -8,10 +8,10 @@ import java.sql.*;
  * Einträge hinzuzufügen, Einträge abzurufen und zu löschen.
  */
 public class DatabaseHelper {
-    // Datenbankkonfiguration
+    // Datenbankkonfiguration (Ersetze Benutzername und Passwort mit deinen eigenen Werten)
     private static final String DB_URL = "jdbc:mysql://localhost:3307/LiquiPlanner";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "test05";
+    private static final String DB_USER = "deinBenutzername"; // Dein MySQL-Benutzername
+    private static final String DB_PASSWORD = "deinPasswort"; // Dein MySQL-Passwort
 
     /**
      * Konstruktor: Erstellt die benötigten Tabellen und fügt Standardmonate hinzu.
